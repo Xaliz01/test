@@ -28,6 +28,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal repo</name>
+			<url>file:///Users/benoist.babin/.m2/repository</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
